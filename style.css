@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*********************************/
+
+.header {
+  height: 100%;
+  background-image: url(image/backfirst.png);
+  position: relative;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 8.2rem;
+}
+.logo {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav {
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container {
+  position: absolute;
+  left: 28%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
+}
+
+.heading-primary {
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.05;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 8.6rem;
+  color: #fff;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.input input {
+  width: 120%;
+  padding: 1.8rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding-left: 5.2rem;
+}
+
+.search-icon {
+  font-size: 2.6rem;
+  color: #444;
+  position: absolute;
+  padding: 1.6rem;
+}
+
+.under-input {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 1.2rem;
+}
+
+.cta a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 4.6rem;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  margin-left: 3.2rem;
+}
+
+/* ========================================= */
+.section-sell {
+  width: 130rem;
+  height: 47rem;
+  border-radius: 2.4rem;
+  /* padding-bottom: 2.4rem; */
+  background-color: black;
+  /* padding: 3.6rem 2.4rem; */
+  margin: 9.6rem;
+  align-self: center;
+  position: relative;
+}
+.sell-box {
+  /* display: flex;
+    justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 9.6rem;
+}
+.reg-header {
+  color: #fff;
+  font-size: 5.2rem;
+  line-height: 1.2;
+  padding-bottom: 6.6rem;
+}
+.btn {
+  background: #fff;
+  border-radius: 11px;
+  font-size: 2.4rem;
+  padding: 2.4rem 4.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #555;
+}
+.regimg {
+  width: 43%;
+  position: absolute;
+  bottom: 0.01rem;
+  right: 6.2rem;
+}
+
+/* =========================================== */
+.section-comment {
+  width: 100%;
+  padding: 6.4rem 9.6rem;
+  margin-bottom: 10rem;
+}
+.comment-header {
+  font-size: 3.6rem;
+  padding-bottom: 7.6rem;
+}
+
+.text-com {
+  line-height: 1.4;
+  padding-bottom: 4.6rem;
+  font-size: 1.6rem;
+  color: #adb5bd;
+}
+.comment-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 8.2rem;
+  padding: 0 3.2rem;
+}
+.comment-text {
+  box-shadow: 0 2rem 2rem 2rem rgb(0, 0, 0, 0.018);
+  padding: 2rem;
+}
+.writer {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+.field {
+  font-size: 1.8rem;
+  color: #adb5bd;
+}
+.footer-com {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-com ion-icon {
+  font-size: 2.4rem;
+  padding: 1.1rem;
+  background-color: black;
+  border-radius: 11px;
+  color: #fff;
+}
+
+/* ============================================ */
+.footer {
+  background-color: black;
+  /* padding: 9.6rem 9.6rem 0 9.6rem; */
+}
+
+.header-footer {
+  font-size: 2.2rem;
+  color: #fff;
+}
+.footer-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: #adb5bd;
+  line-height: 4.6rem;
+  padding: 9.6rem 9.6rem 9.6rem 9.6rem;
+  /* padding-bottom: 9.6rem; */
+}
+.link {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.down-footer-box {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 2rem;
+  padding: 3.2rem 6.4rem;
+  border-top: solid 1px #343a40;
+  padding: ;
+}
+.footer-logo ion-icon {
+  font-size: 3.4rem;
+  padding-right: 3.4rem;
+  cursor: pointer;
+}
+
+/* ============================================ */
+.popup-join {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+  background-color: #f3f3f3;
+  border-radius: 11px;
+  padding: 5rem 6rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+
+.cover-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.popup-join_header {
+  font-size: 3.25rem;
+  margin-bottom: 4.5rem;
+  line-height: 1.5;
+}
+
+.popup_form {
+  margin: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.popup_form label {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.popup_form input {
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 11px;;
+}
+
+.popup_form button {
+  grid-column: 1 / span 2;
+  justify-self: center;
+  margin-top: 1rem;
+}
+
+.btn-close-popup-join {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}

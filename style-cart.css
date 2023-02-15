@@ -1,0 +1,95 @@
+.section-carts{
+    padding: 9.6rem ;
+    display: block;
+
+}
+.cart-imge{
+    width: 100%;
+    border-radius: 11px;
+    padding-bottom: 2.4rem;
+}
+.carts-box{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    /* overflow: hidden; */
+    transition: all 0.4s;
+    padding: 1.8rem;
+    font-size: 1.6rem;
+    
+}
+.carts-box:hover {
+    transform: translateY(-2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+
+}
+.all-carts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.4rem;
+}
+.primairy-header{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #111;
+    padding-bottom: 4.6rem;
+}
+.footer-carts{
+    color: #adb5bd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.4rem;
+
+}
+.weiter-box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.8rem;
+    color: #adb5bd
+    
+}
+.footer-Score ion-icon {
+    color: #ffd43b ;
+    padding-right: .4rem;
+}
+.weiter-box ion-icon{
+    color: #fff;
+    background-color: #f1f3f5;
+    border-radius: 50%;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.icon-carts-active ion-icon{
+    color: red;
+
+
+}
+.secondary-header{
+    font-size: 2.2rem;
+    color: #555;
+    padding-bottom: 2.8rem;
+
+}
+.price{
+    color: #555;
+    padding-left: .3rem;
+}
+
+.btn-pos{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-pos-dt{
+    display: flex;
+}
+.btn-pos-dt ion-icon{
+    font-size: 3.4rem;
+    padding-right: 4.2rem;
+    cursor: pointer;
+    
+}
+.btn-pos-dt-selected{
+    color: #adb5bd;
+}
